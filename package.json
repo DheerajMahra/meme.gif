@@ -1,6 +1,18 @@
 {
   "name": "meme.gif",
   "version": "1.0.0",
+  "description": "A react-native app to record and share animated meme gifs",
+  "author": {
+    "name" : "Dheeraj Mahra",
+    "email" : "dheerajmahra873@gmail.com",
+    "url" : "https://dheerajmahra.now.sh"
+  },
+  "homepage": "https://github.com/DheerajMahra/meme.gif#readme",
+  "bugs": {
+    "url" : "https://github.com/DheerajMahra/meme.gif/issues",
+    "email" : "dheerajmahra873@gmail.com"
+  },
+  "license": "MIT",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
