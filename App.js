@@ -1,20 +1,16 @@
+import { View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import globalStyles from '@@styles/globalStyles';
+import color from '@@constants/color';
+import Button from '@@components/shared/Button';
+import Landing from '@@components/screens/Landing';
 
 export default function App() {
 	return (
-		<View style={styles.container}>
-			<Text>Open up App.js to start working on your app!</Text>
+		<View style={globalStyles.container}>
+			<Landing />
+			<Button title="Start Recording" bg={color.BLACK} color={color.WHITE} />
 			<StatusBar style="auto" />
 		</View>
 	);
 }
-
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		backgroundColor: '#fff',
-		alignItems: 'center',
-		justifyContent: 'center'
-	}
-});
